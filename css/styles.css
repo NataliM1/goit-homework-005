@@ -544,10 +544,12 @@ img {
 
 .subscribe-form-btn {
   display: flex;
+  justify-content: center;
   padding: 8px 24px;
   align-items: center;
   gap: 16px;
   width: 165px;
+  min-width: 165px;
   height: 40px;
   color: #fff;
   text-align: center;
@@ -556,6 +558,9 @@ img {
   background: #4d5ae5;
   letter-spacing: 0.64px;
   outline: transparent;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
 }
 
 .subscribe-form-icon {
