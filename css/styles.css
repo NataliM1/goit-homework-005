@@ -739,18 +739,14 @@ img {
 
 /*   checkbox     */
 
-.wrapper-form-checkbox {
-  margin-bottom: 24px;
-}
-
-.checkbox:checked + .form-agreement-checkbox {
+.checkbox:checked + .form-agreement > .form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
 }
 
 .wrapper-form-checkbox .form-agreement {
   display: block;
-
+  margin-bottom: 24px;
   color: #8e8f99;
   font-size: 12px;
   font-style: normal;
@@ -760,7 +756,10 @@ img {
   user-select: none;
 }
 
-.checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
+.checkbox:checked
+  + .form-agreement
+  > .form-agreement-checkbox
+  > .form-agreement-icon {
   opacity: 1;
 }
 
