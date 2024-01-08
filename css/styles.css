@@ -652,7 +652,7 @@ img {
 }
 
 .modal-form-wrapper-comment {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .form-label {
@@ -739,7 +739,11 @@ img {
 
 /*   checkbox     */
 
-.wrapper-form-checkbox .form-agreement {
+.wrapper-form-checkbox {
+  margin-bottom: 24px;
+}
+
+.form-agreement {
   display: block;
   margin-bottom: 24px;
   color: #8e8f99;
